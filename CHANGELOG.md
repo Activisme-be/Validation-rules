@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- None 
+- Implement Markdown Http image url rule. 
 
 ## [1.0.0] - 3 July, 2019 
 
