@@ -1,26 +1,26 @@
-<?php 
+<?php
 
 namespace ActivismeBe\ValidationRules\Rules;
 
-use Illuminate\Contracts\Validation\Rule; 
+use Illuminate\Contracts\Validation\Rule;
 
 /**
- * Class MarkdownHttpImageUrl 
- * 
+ * Class MarkdownHttpImageUrl
+ *
  * This rule validates Markdown for non-HTTPS image links.
- * 
+ *
  * @see     https://git.io/fj6Gw
  * @package ActivismeBe\ValidationRules\Rules
  */
-class MarkdownHttpImageUrl implements Rule 
+class MarkdownHttpImageUrl implements Rule
 {
      /**
-     * Create a new rule instance. 
-     * 
-     * @param  User $user    The entity from the given user. 
+     * Create a new rule instance.
+     *
+     * @param  User $user    The entity from the given user.
      * @return void
      */
-    public function __construct($user) 
+    public function __construct($user)
     {
         $this->user = $user;
     }
@@ -28,11 +28,11 @@ class MarkdownHttpImageUrl implements Rule
     /**
      * Determine if the validation rule passes.
      *
-     * @param  string   $attribute The name from the attribute field. 
-     * @param  mixed    $value     The value from the arrtibute. 
+     * @param  string   $attribute The name from the attribute field.
+     * @param  mixed    $value     The value from the arrtibute.
      * @return bool
      */
-    public function passes($attribute, $value)
+    public function passes($attribute, $value): bool
     {
         return ! preg_match('/!\[.*\]\(http:\/\/.*\)/', $value);
     }
@@ -42,7 +42,7 @@ class MarkdownHttpImageUrl implements Rule
      *
      * @return string
      */
-    public function message()
+    public function message(): string
     {
         return __('validationRules::messages.markdownHttpImageUrl');
     }

@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfd2572c-26b6-47d0-9dc4-aff2c602b4ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rules/DoesNotContainUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rules/DoesNotContainUrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rules/MarkdownHttpImageUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rules/MarkdownHttpImageUrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rules/MatchUserPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rules/MatchUserPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidationRuleServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidationRuleServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -39,7 +44,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583785626046</updated>
-      <workItem from="1583785627764" duration="329000" />
+      <workItem from="1583785627764" duration="382000" />
+      <workItem from="1583786087459" duration="138000" />
     </task>
     <servers />
   </component>

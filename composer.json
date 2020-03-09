@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": ["Activisme_BE", "validation", "rules", "laravel"],
     "require": {
-        "php": "^7.2",
+        "php": "^7.4",
         "illuminate/support": "^5.8",
         "illuminate/contracts": "^5.8"
     },
@@ -15,7 +15,7 @@
     "authors": [
         {
             "name": "Tim Joosten",
-            "email": "tim@activisme.be", 
+            "email": "tim@activisme.be",
             "role": "developer"
         }
     ],
