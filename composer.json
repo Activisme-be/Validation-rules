@@ -5,11 +5,11 @@
     "keywords": ["Activisme_BE", "validation", "rules", "laravel"],
     "require": {
         "php": "^7.4",
-        "illuminate/support": "^5.8",
-        "illuminate/contracts": "^5.8"
+        "illuminate/support": "^6.0|^7.0",
+        "illuminate/contracts": "^6.0|^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.2"
+        "phpunit/phpunit": "^8.5"
     },
     "license": "MIT",
     "authors": [
