@@ -34,7 +34,7 @@ The `MatchUserPassword` rules can be used like this:
 public function rules(): array 
 {
     return [
-        'confiormation' => 'required', 'string', 'min:8', new MatchUserPassword($this->user())
+        'confirmation' => 'required', 'string', 'min:8', new MatchUserPassword($this->user())
     ];
 }
 ```
