@@ -5,22 +5,22 @@ namespace ActivismeBe\ValidationRules\Rules;
 use Illuminate\Contracts\Validation\Rule;
 
 /**
- * Class MarkdownHttpImageUrl
- *
+ * Class MarkdownHttpImageUrl 
+ * 
  * This rule validates Markdown for non-HTTPS image links.
- *
+ * 
  * @see     https://git.io/fj6Gw
  * @package ActivismeBe\ValidationRules\Rules
  */
-class MarkdownHttpImageUrl implements Rule
+class MarkdownHttpImageUrl implements Rule 
 {
      /**
-     * Create a new rule instance.
-     *
-     * @param  User $user    The entity from the given user.
+     * Create a new rule instance. 
+     * 
+     * @param  User $user    The entity from the given user. 
      * @return void
      */
-    public function __construct($user)
+    public function __construct($user) 
     {
         $this->user = $user;
     }
