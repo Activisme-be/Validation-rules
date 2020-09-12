@@ -9,7 +9,7 @@ use Illuminate\Support\ServiceProvider;
  *
  * @package ActivismeBe\ValidationRules
  */
-class ValidationRulesServiceProvider extends ServiceProvider
+class ValidationRuleServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
