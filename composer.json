@@ -1,15 +1,15 @@
 {
     "name": "actb/laravel-validation-rules",
-    "description": "A set of useul Laravel validation rules",
+    "description": "A set of usefull Laravel validation rules",
     "type": "library",
     "keywords": ["Activisme_BE", "validation", "rules", "laravel"],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/support": "~7.0|~8.0",
-        "illuminate/contracts": "~7.0|~8.0"
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/contracts": "^6.0|^7.0|^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.2|^9.0"
+        "phpunit/phpunit": "^8.5|^9.0"
     },
     "license": "MIT",
     "authors": [
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ActivismeBe\\ValidationRules\\ValidationRulesServiceProvider"
+                "ActivismeBe\\ValidationRules\\ValidationRuleServiceProvider"
             ]
         }
     }
